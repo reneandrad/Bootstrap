@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Painel</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="estilo-painel.css" rel="stylesheet">
+      
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+  </head>
+    
+  <body>
+      
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Marca</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-home fa-2x" aria-hidden="true"></i> Home</a></li>
+                <li><a href="#"><i class="fa fa-calendar-check-o fa-2x" aria-hidden="true"></i> Cronograma</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> Mensagens</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Configurações</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Sair</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      <div class="container-fluid">
+          <div class="row-fluid">
+              <div class="col-sm-3">
+                  
+                  <!-- menu navegação lateral -->
+                  <div class="panel panel-default">
+                      <div id="colgroup1" role="tab" class="panel-heading">
+                          <h4 class="panel-title">
+                              <span class="glyphicon glyphicon-file"></span>
+                              <a href="#listgroup1" aria-controls="listgroup1" aria-expanded="false" data-toggle="collapse">Gerenciar Posts</a>
+                          </h4>
+                      </div>
+                      <div role="tabpanel" class="panel-collapse collapse" id="listgroup1" aria-expanded="false">
+                          <ul class="list-group">
+                              <li class="list-group-item"><a href="#"><i class="fa fa-file-text" aria-hidden="true"></i> Criar novo</a></li>
+                              <li class="list-group-item"><a href="#"><i class="fa fa-pencil-square" aria-hidden="true"></i> Alterar</a></li>
+                              <li class="list-group-item"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i> Excluir</a></li>
+                          </ul>
+                      </div>
+                </div> 
+              <!-- fim menu navegação 2-->
+              
+              <!-- menu navegação lateral -->
+                  <div class="panel panel-default">
+                      <div id="colgroup1" role="tab" class="panel-heading">
+                          <h4 class="panel-title">
+                              <span class="glyphicon glyphicon-user"></span>
+                              <a href="#listgroup2" aria-controls="listgroup2" aria-expanded="false" data-toggle="collapse">Gerenciar Usuários</a>
+                          </h4>
+                      </div>
+                      <div role="tabpanel" class="panel-collapse collapse" id="listgroup2" aria-expanded="false">
+                          <ul class="list-group">
+                              <li class="list-group-item"><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Criar novo</a></li>
+                              <li class="list-group-item"><a href="#"><i class="fa fa-pencil-square" aria-hidden="true"></i> Alterar Dados</a></li>
+                              <li class="list-group-item"><a href="#"><i class="fa fa-user-times" aria-hidden="true"></i> Excluir</a></li>
+                          </ul>
+                      </div>
+                </div>
+              <!-- fim menu navegação 2 -->
+               </div>
+              
+              <div class="col-sm-9">
+                  <div class="conteudo-painel">
+                      <div class="conteudo-painel-interno">
+                          <ul class="nav nav-pills" role="tablist">
+                              <li class="active">
+                                  <a href="#">Email:<span class="badge">10</span></a>
+                              </li>
+                              <li class="active">
+                                  <a href="#">Avisos:<span class="badge">2</span></a>
+                              </li>
+                              <li class="active">
+                                  <a href="#">Mensagens:<span class="badge">3</span></a>
+                              </li>
+                          </ul>
+                          <hr />
+                          <div class="well well-lg">
+                              <h2>Seja bem vindo!</h2>
+                              <p>Utilize o menu ao lado para acessar as áreas do painel.</p>
+                          </div>
+                          <div class="page-header">
+                              <h3>Avisos:</h3>
+                          </div>
+                          <div class="alert alert-success">
+                              <strong>Parabéns!</strong> Você foi recomendado.
+                          </div>
+                          <div class="alert alert-warning">
+                              <strong>Atenção!</strong> Você tem até o dia <strong>dd/mm/yyyy</strong> para ajustar as suas férias.
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-4">
+                                  <h3>Minhas Anotações</h3>
+                                  <ul>
+                                      <li>Ligar para fulano</li>
+                                      <li>Agendar reunião com Fulaninho</li>
+                                  </ul>
+                                  <a href="#" class="btn btn-primary btn-block">Adicionar anotação</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+      </div>
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+body{
+    padding-top: 45px;
+}
+section{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+}
+img.grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.navbar-brand{
+    font-weight: 700;
+}
+.divslider{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(img/bg.jpg);
+}
+.carousel-inner img {
+    margin: auto;
+}
+.div-colorida{
+    background: url(img/bg2.jpg)
+}
+.img-responsive{
+    margin: auto;
+}
+.servicos-item *{
+    text-align: center;
+}
+.servicos-item h4{
+    margin-top: 10px;
+}
+.btn-margin{
+    margin-top: 35px;
+}
+.portifolio-item-cor{
+    color: white;
+}
+.portifolio-item h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn-contato{
+    margin-top: 4px;
+}
+.aviso-contato{
+    padding: 15px;
+}
+.section-interna{
+    padding-top: 0px;
+}
+.servicos-p{
+    text-align: justify;
+}
+.form-login{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #aab;
+}
+.form-login input{
+        margin-bottom: 10px;
+}

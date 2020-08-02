@@ -1,0 +1,24 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+body{
+    background: url(img/sos.png);
+    padding-top: 70px;
+}
+.panel h4{
+    text-align: center;
+}
+.panel{
+    margin-bottom: 2px;
+}
+.conteudo-painel{
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 3px #888;
+    margin-bottom: 15px;
+}
+.conteudo-painel-interno{
+    padding: 8px;
+}
